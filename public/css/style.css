@@ -8,6 +8,9 @@ body {
   background: #fff;
   color: #859196; }
 
+.Nav {text-transform: capitalize;}
+
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
