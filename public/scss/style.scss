@@ -11,6 +11,8 @@ $primary: #4586FF;
 html {
 	overflow-x: hidden;
 }
+
+
 body {
 	font-family: $font-sans-serif;
 	line-height: 1.8;
@@ -579,6 +581,8 @@ textarea {
 		color: darken(#ccc, 10%);
 	}
 }
+
+
 
 #ftco-loader {
 	position: fixed;
