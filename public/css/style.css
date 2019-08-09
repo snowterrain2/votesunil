@@ -615,3 +615,7 @@ header .overlay {
 background-image: linear-gradient(to left, #ff0000 6%, #003399 100%);
 
 }
+
+textarea{ 
+    background-color:white !important;
+}
