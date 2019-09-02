@@ -15,6 +15,7 @@ $(document).ready(function($) {
 	var carousel = function() {
 		$('.owl-carousel').owlCarousel({
 			loop: true,
+			autoplay:true,
 			margin: 10,
 			nav: true,
 			stagePadding: 5,
