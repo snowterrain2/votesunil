@@ -29,6 +29,9 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #4586FF !important; }
 
+
+
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
@@ -604,7 +607,20 @@ background-color:grey;
   header video {
     display: none;
   }
+
+
 }
+@media screen and (max-width: 600px) {
+  #announcement {
+    visibility: hidden;
+     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .announcement {
+    visibility: hidden;
+    display: none }}
 
 
 .bg-custom-1 {
