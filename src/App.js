@@ -453,7 +453,7 @@ function KeyMessages({ match }) {
             </div>
           <div className="col-lg-3 col-md-6">
             <div className="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
-              <div className="ftco-icon mb-3"><span className="oi oi-dollar display-4 text-muted"></span></div>
+              <div className="ftco-icon mb-3"><span className="oi oi-dollar display-4 text-success"></span></div>
 	
               <div className="media-body">
                 <h5 className="mt-0">Fight against tax increase</h5>
@@ -465,7 +465,8 @@ function KeyMessages({ match }) {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
-              <div className="ftco-icon mb-3"><span className="oi oi-people display-4 text-muted"></span></div>
+              
+              <div className="ftco-icon mb-3"><span className="oi oi-people display-4 text-info"></span></div>
               <div className="media-body">
                 <h5 className="mt-0">Encourage Free Market</h5>
                 <p className="mb-5">This is the building block of this wonderful country of ours. 
@@ -476,7 +477,7 @@ function KeyMessages({ match }) {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
-              <div className="ftco-icon mb-3"><span className="oi oi-globe display-4 text-muted"></span></div>
+              <div className="ftco-icon mb-3"><span className="oi oi-globe display-4 text-success"></span></div>
               <div className="media-body">
                 <h5 className="mt-0">Protect the Green Space</h5>
                 <p className="mb-5">More green space within a city�s boundaries can improve the urban living space. The environment needs to be protected including the flora and fauna.</p>
@@ -488,7 +489,7 @@ function KeyMessages({ match }) {
 
           <div className="col-lg-3 col-md-6">
             <div className="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
-              <div className="ftco-icon mb-3"><span className="oi oi-bullhorn display-4 text-muted"></span></div>
+              <div className="ftco-icon mb-3"><span className="oi oi-bullhorn display-4 text-danger"></span></div>
               <div className="media-body">
                 <h5 className="mt-0">Be Your Voice</h5>
                 <p className="mb-5">The average citizen of Troy needs to be aware of the things that are happening around them and how it impacts them. Also the views, perspectives, and concerns of the average citizen must be heard at the leadership level. That is what I will strive for as a member of the Troy City Council.</p>
