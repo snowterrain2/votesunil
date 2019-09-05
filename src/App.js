@@ -28,6 +28,7 @@ function App() {
               <Route path='/keymessages' component={KeyMessages} />
               <Route path='/endorsements' component={END2} />
               <Route path='/blog' component={Blog} />
+              <Route path='/donate' component={Donate} />
           </Switch>
       <div>
      {/*  <header className="App-header">
@@ -57,6 +58,33 @@ function Home() {
   return (
 
         <Header/>
+        
+       
+
+  );
+}
+
+function Donate() {
+  return (
+
+    <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-pricing">
+    <div className="container">
+
+    <div className="row">
+          <div className="col-md-12 text-center ftco-animate">
+            <h2 className="text-uppercase ftco-uppercase">Support Me</h2>
+            <div className="row justify-content-center mb-5">
+              <div className="col-md-7">
+                <p className="lead">Sunil Sivaraman For Troy City Council</p>
+              <a href="https://www.paypal.me/votesunil?utm_source=unp&utm_medium=email&utm_campaign=PPC000628&utm_unptid=4cf4ff14-ccf7-11e9-a6dc-8cdcd4b6f348&ppid=PPC000628&cnac=US&rsta=en_US&cust=FJUDPDP4EP2AU&unptid=4cf4ff14-ccf7-11e9-a6dc-8cdcd4b6f348&calc=609f0d81d5e59&unp_tpcid=ppme-social-user-profile-created&page=main:email:PPC000628:::&pgrp=main:email&e=cl&mchn=em&s=ci&mail=sys" target="_blank" class="nav-link text-white ">
+         
+                <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/pp-acceptance-large.png" alt="Buy now with PayPal" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </section>
         
        
 
