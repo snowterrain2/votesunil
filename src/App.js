@@ -381,7 +381,7 @@ function Body(){
      
 	  	<header>
 	   <div className="overlay"></div>
-  <video playsInline="playsInline" control='true' muted autoPlay>
+  <video playsInline="playsInline" control='true' muted autoPlay loop>
     <source src="https://votesunil.s3.us-east-2.amazonaws.com/family.mp4" type="video/mp4"/>
     <source src="https://votesunil.s3.us-east-2.amazonaws.com/family.ogg" type="video/ogg"/>
     
