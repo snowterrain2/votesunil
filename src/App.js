@@ -579,8 +579,8 @@ function Blog({ match }) {
      
      
       <div className="row">
-
-      <div className="col-md-12 ftco-animate text-center">
+    <div className="col-lg-6">
+      <div className="col-md-12" ftco-animate text-center>
           <figure><img src="images/fund.JPG" alt="Sunil for Troy city Council Fund raiser" className="img-fluid"/></figure>
           <div className="p-3">
    
@@ -588,6 +588,17 @@ function Blog({ match }) {
            
           </div>
         </div>
+        </div>
+        <div className="col-lg-6">
+      <div className="col-md-12 ftco-animate text-center">
+      <div className="fb-page" data-href="https://www.facebook.com/Sunil4Troy/" data-tabs="timeline" data-width="" data-height="400" data-small-header="false" data-adapt-container-width="true" 
+      data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sunil4Troy/" 
+      className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sunil4Troy/">Sunil 4 Troy City Council</a></blockquote></div>
+</div>
+</div>
+</div>
+        <div className="row">
+
         <div className="col-lg-4 mb-5 ftco-animate">
           <figure><img src="images/img_2.jpeg" alt="Troy Welcomes Daisy Knight Dog Park" className="img-fluid"/></figure>
           <div className="p-3">
@@ -622,7 +633,12 @@ function Blog({ match }) {
   
 
       </div>
+
+    
     </div>
+   
+      
+      
   </section>
         
 
