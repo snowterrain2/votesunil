@@ -74,11 +74,9 @@ function Donate() {
     <div className="row">
           <div className="col-md-12 text-center ftco-animate">
             <h2 className="text-uppercase ftco-uppercase">Support Me</h2>
-            <iframe src="https://secure.anedot.com/sunil-sivaraman-for-troy-city-council/donate?embed=true" width="100%" height="1000" frameBorder="0"></iframe>
+            <iframe src="https://secure.anedot.com/sunil-sivaraman-for-troy-city-council/donate?embed=true" width="100%" height="525"  frameBorder="0"></iframe>
           </div>
-        </div>
-
-        <div className="row">
+      
           <p>
         I am truly grateful for your support. Thank you so much for contributing to my campaign. Donations through this website can be accepted in any denomination up to $2,100.00 with maximum individual contribution of $1,050.00 ($2,100.00 per couple).
 
@@ -98,7 +96,11 @@ Additionally, when contributing, you attest that:
 
 Personal checks can be made payable to: "Friends of Sunilkumar Sivaraman" and can be mailed to 723 Palermo, Troy, MI 48084. Please be sure to include your correct mailing address, telephone number, email address, occupation, employer and employer address.
 
-       </div>
+  
+
+        </div>
+
+       
         </div>
         </section>
         
@@ -565,7 +567,17 @@ function Blog({ match }) {
         </div>
       </div>
      
+     
       <div className="row">
+
+      <div className="col-md-12 ftco-animate text-center">
+          <figure><img src="images/fund.JPG" alt="Sunil for Troy city Council Fund raiser" className="img-fluid"/></figure>
+          <div className="p-3">
+            <h3 className="h4">Sunil for Troy city Council Fund raiser</h3>
+            <p className="mb-4"></p>
+           
+          </div>
+        </div>
         <div className="col-lg-4 mb-5 ftco-animate">
           <figure><img src="images/img_2.jpeg" alt="Troy Welcomes Daisy Knight Dog Park" className="img-fluid"/></figure>
           <div className="p-3">
