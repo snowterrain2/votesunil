@@ -438,7 +438,7 @@ function Body(){
 <div className="container">
 
   <div className="row mb-5">
-    <div className="col-md-12 text-center ftco-animate">
+    <div className="col-md-8 text-center ftco-animate">
       <h2> &quot;I am Sunil Sivaraman and want to announce my candidacy for Troy City Council.
               I am not an insider, what Troy needs right now is Change. I stand for a Clean,
               Transparent and Efficient government, moving Troy forward beyond politics. I
@@ -448,6 +448,16 @@ function Body(){
               the right growth in our City. <b>I promise to be the Best City Councilman I can be.</b>&quot;</h2>
      
     </div>
+
+    <div className="col-md-4 ftco-animate text-center">
+          <figure><img src="images/fund.JPG" alt="Sunil for Troy city Council Fund raiser" className="img-fluid"/></figure>
+          <div className="p-3">
+   
+            <p className="mb-4"> <h3 className="h4">Fundraising Event
+Joe Kool's Bar & Grill · Troy, MI</h3></p>
+           
+          </div>
+        </div>
   </div>
 
 
