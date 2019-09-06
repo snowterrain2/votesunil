@@ -67,22 +67,38 @@ function Home() {
 function Donate() {
   return (
 
+
     <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-pricing">
     <div className="container">
 
     <div className="row">
           <div className="col-md-12 text-center ftco-animate">
             <h2 className="text-uppercase ftco-uppercase">Support Me</h2>
-            <div className="row justify-content-center mb-5">
-              <div className="col-md-7">
-                <p className="lead">Sunil Sivaraman For Troy City Council</p>
-              <a href="https://www.paypal.me/votesunil?utm_source=unp&utm_medium=email&utm_campaign=PPC000628&utm_unptid=4cf4ff14-ccf7-11e9-a6dc-8cdcd4b6f348&ppid=PPC000628&cnac=US&rsta=en_US&cust=FJUDPDP4EP2AU&unptid=4cf4ff14-ccf7-11e9-a6dc-8cdcd4b6f348&calc=609f0d81d5e59&unp_tpcid=ppme-social-user-profile-created&page=main:email:PPC000628:::&pgrp=main:email&e=cl&mchn=em&s=ci&mail=sys" target="_blank" class="nav-link text-white ">
-         
-                <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/pp-acceptance-large.png" alt="Buy now with PayPal" /></a>
-              </div>
-            </div>
+            <iframe src="https://secure.anedot.com/sunil-sivaraman-for-troy-city-council/donate?embed=true" width="100%" height="1000" frameBorder="0"></iframe>
           </div>
         </div>
+
+        <div className="row">
+          <p>
+        I am truly grateful for your support. Thank you so much for contributing to my campaign. Donations through this website can be accepted in any denomination up to $2,100.00 with maximum individual contribution of $1,050.00 ($2,100.00 per couple).
+
+Additionally, when contributing, you attest that:
+</p>
+
+<ul className="navbar-nav navbar-left ml-auto">
+              <li className="nav-item active"><span className="oi oi-check mr-3 text-primary"/> You are not a foreign national who lacks permanent residence in the United States;</li>
+              <li className="nav-item active"><span className="oi oi-check mr-3 text-primary"/> This contribution is made from your own funds, and not those of another;</li>
+              <li className="nav-item active"><span className="oi oi-check mr-3 text-primary"/> This contribution is not made from the funds of a corporation or labor organization;</li>
+              <li className="nav-item active"><span className="oi oi-check mr-3 text-primary"/>  This contribution is made on a personal credit card or debit card for which you have the legal obligation to pay, and is not made either on a corporate or business entity card or on the card of another person; You are at least eighteen years old.</li>
+
+
+
+              </ul>
+
+
+Personal checks can be made payable to: "Friends of Sunilkumar Sivaraman" and can be mailed to 723 Palermo, Troy, MI 48084. Please be sure to include your correct mailing address, telephone number, email address, occupation, employer and employer address.
+
+       </div>
         </div>
         </section>
         
