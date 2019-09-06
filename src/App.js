@@ -356,7 +356,7 @@ function About() {
   
           <div className="row mb-5">
             <div className="col-md-12 text-center ftco-animate">
-              <h2 className="text-uppercase ftco-uppercase">About Sunil</h2>
+              {/* <h2 className="text-uppercase ftco-uppercase">About Sunil</h2> */}
               <div className="row justify-content-center mb-5">
                 <div className="col-md-7">
                   <p className="lead">Sunil Sivaraman calls Troy his home and he wants to make Troy a better place starting now and moving into the future. Sunil is an IT manager at Ford Motor Company, where he has worked for 24 years. He is married with 2 children in the Troy Public school system, a dad who wants to make Troy a better place tomorrow than it is today.
@@ -573,7 +573,7 @@ function Blog({ match }) {
       <div className="col-md-12 ftco-animate text-center">
           <figure><img src="images/fund.JPG" alt="Sunil for Troy city Council Fund raiser" className="img-fluid"/></figure>
           <div className="p-3">
-            <h3 className="h4">Sunil for Troy city Council Fund raiser</h3>
+   
             <p className="mb-4"></p>
            
           </div>
