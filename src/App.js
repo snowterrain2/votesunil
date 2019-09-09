@@ -587,11 +587,13 @@ function Blog({ match }) {
             <p className="mb-4"></p>
            
           </div>
-          
+
         </div>
         </div>
         <div className="col-lg-6">
       <div className="col-md-12 ftco-animate text-center">
+      <h3 className="h4">Find us on facebook <span class="icon-facebook text-primary"></span> </h3>
+     
       <div className="fb-page" data-href="https://www.facebook.com/Sunil4Troy/" data-tabs="timeline" data-width="" data-height="400" data-small-header="false" data-adapt-container-width="true" 
       data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sunil4Troy/" 
       className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sunil4Troy/">Sunil 4 Troy City Council</a></blockquote></div>
