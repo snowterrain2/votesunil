@@ -587,6 +587,7 @@ function Blog({ match }) {
             <p className="mb-4"></p>
            
           </div>
+          
         </div>
         </div>
         <div className="col-lg-6">
