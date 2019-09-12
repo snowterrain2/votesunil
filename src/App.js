@@ -258,7 +258,7 @@ function END2(){
     <div className="row">
     <div className="col-lg-4 col-md-12 mb-4">
  
-      <h5 className="mt-0">Precint Delegate Ray Watts</h5>
+      <h5 className="mt-0">Precinct Delegate Ray Watts</h5>
         <div className="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div className="modal-dialog modal-lg" role="document">
     
