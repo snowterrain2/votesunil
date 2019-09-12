@@ -400,7 +400,7 @@ function Body(){
 	  	<header>
 	   <div className="overlay"></div>
   <video playsInline="playsInline" control='true' muted autoPlay loop>
-    <source src="https://votesunil.s3.us-east-2.amazonaws.com/family.mp4" type="video/mp4"/>
+    <source src="https://votesunil.s3.us-east-2.amazonaws.com/BGV.mp4" type="video/mp4"/>
     <source src="https://votesunil.s3.us-east-2.amazonaws.com/family.ogg" type="video/ogg"/>
     
 
@@ -713,7 +713,7 @@ function Endorsements({ match }) {
                 <div className="media d-block text-left ftco-media p-md-2 p-1">
                   <div className="ftco-icon mb-3"></div>
                   <div className="media-body">
-                    <h5 className="mt-0">Precint Delegate Ray Watts</h5>
+                    <h5 className="mt-0">Precinct Delegate Ray Watts</h5>
                     
                     <div className="embed-responsive embed-responsive-4by3">
   <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/GEGjzZ86Dow?rel=0" allowFullScreen></iframe>

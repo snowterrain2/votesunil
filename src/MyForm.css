@@ -1,0 +1,9 @@
+.form {
+    background:  #ffffff; 
+    border-radius:  4px; 
+    box-shadow:  0px 2px 6px -1px rgba(0,0,0,.12);
+  }
+
+  .my-form h4 {
+    color: #92aad0;
+  }
