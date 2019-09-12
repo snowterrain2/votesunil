@@ -355,10 +355,10 @@ function About() {
         <div className="container">
   
           <div className="row mb-5">
-            <div className="col-md-12 text-center ftco-animate">
+            <div className="col-md-6 text-center ftco-animate">
               {/* <h2 className="text-uppercase ftco-uppercase">About Sunil</h2> */}
               <div className="row justify-content-center mb-5">
-                <div className="col-md-7">
+                <div className="col-md-12">
                   <p className="lead">Sunil Sivaraman calls Troy his home and he wants to make Troy a better place starting now and moving into the future. Sunil is an IT manager at Ford Motor Company, where he has worked for 24 years. He is married with 2 children in the Troy Public school system, a dad who wants to make Troy a better place tomorrow than it is today.
                     I have been involved with our community in various capabilities like </p>
                   
@@ -374,16 +374,22 @@ function About() {
                 </div>
               </div>
             </div>
+            <div className="col-md-6 text-center ftco-animate">
+              {/* <h2 className="text-uppercase ftco-uppercase">About Sunil</h2> */}
+              <div className="col-md-12 mb-md-0 mb-5">
+              <img src="images/family.jpeg" alt="Sunils family picture" className="img-fluid"/>
+            </div>
+            </div>
           </div>
        
   
   
-          <div className="row no-gutters align-items-center ftco-animate">
+         {/*  <div className="row no-gutters align-items-center ftco-animate">
             <div className="col-md-12 mb-md-0 mb-5">
               <img src="images/family.jpeg" alt="Sunils family picture" className="img-fluid"/>
             </div>
           
-          </div>
+          </div> */}
 
          
         </div>
