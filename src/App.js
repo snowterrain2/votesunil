@@ -64,6 +64,7 @@ function Home() {
   );
 }
 
+
 function Donate() {
   return (
 
@@ -142,7 +143,7 @@ function END2(){
               <div className="modal-body mb-0 p-0">
     
                 <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/xW5ONjDgKK0"
+                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/Uwu9Sr3598g"
                     allowfullscreen></iframe>
                 </div>
                
@@ -164,7 +165,7 @@ function END2(){
         </div>
 
     
-        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/xW5ONjDgKK0/hqdefault.jpg" alt="video"
+        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/Uwu9Sr3598g/hqdefault.jpg" alt="video"
             data-toggle="modal" data-target="#modal1"/></a>
     
       </div>
@@ -184,7 +185,7 @@ function END2(){
               <div className="modal-body mb-0 p-0">
     
                 <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/QRA7z1jCIk8"
+                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/VtT_Aqu5A-E"
                     allowfullscreen></iframe>
                 </div>
     
@@ -206,7 +207,7 @@ function END2(){
         </div>
     
     
-        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/QRA7z1jCIk8/hqdefault.jpg" alt="video"
+        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/VtT_Aqu5A-E/hqdefault.jpg" alt="video"
             data-toggle="modal" data-target="#modal6"/></a>
     
       </div>
@@ -226,7 +227,7 @@ function END2(){
               <div className="modal-body mb-0 p-0">
     
                 <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/MKhHq-mwBco"
+                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/4MzSFXQvVaU"
                     allowfullscreen></iframe>
                 </div>
     
@@ -248,7 +249,7 @@ function END2(){
         </div>
       
     
-        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/MKhHq-mwBco/hqdefault.jpg" alt="video"
+        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/4MzSFXQvVaU/hqdefault.jpg" alt="video"
             data-toggle="modal" data-target="#modal4"/></a>
     
       </div>
@@ -269,7 +270,7 @@ function END2(){
               <div className="modal-body mb-0 p-0">
     
                 <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/GEGjzZ86Dow"
+                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/S_XtE6RE_kM"
                     allowfullscreen></iframe>
                 </div>
                 <div className="modal-footer justify-content-center">
@@ -293,7 +294,7 @@ function END2(){
         </div>
 
     
-        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/GEGjzZ86Dow/hqdefault.jpg" alt="video"
+        <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/S_XtE6RE_kM/hqdefault.jpg" alt="video"
             data-toggle="modal" data-target="#modal7"/></a>
     
       </div>
@@ -311,7 +312,7 @@ function END2(){
          <div className="modal-body mb-0 p-0">
 
            <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
-             <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/6VMhRfHibuw"
+             <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/b8I3Jke6yX8"
                allowfullscreen></iframe>
            </div>
            <div className="modal-footer justify-content-center">
@@ -334,7 +335,7 @@ function END2(){
    </div>
 
 
-   <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/6VMhRfHibuw/hqdefault.jpg" alt="video"
+   <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/b8I3Jke6yX8/hqdefault.jpg" alt="video"
        data-toggle="modal" data-target="#modal8"/></a>
 
  </div>
@@ -391,6 +392,7 @@ function About() {
           
           </div> */}
 
+
          
         </div>
       </section>
@@ -444,7 +446,7 @@ function Body(){
 <div className="container">
 
   <div className="row mb-5">
-    <div className="col-md-8 text-center ftco-animate">
+    <div className="col-md-12 text-center ftco-animate">
       <h2> &quot;I am Sunil Sivaraman and want to announce my candidacy for Troy City Council.
               I am not an insider, what Troy needs right now is Change. I stand for a Clean,
               Transparent and Efficient government, moving Troy forward beyond politics. I
@@ -455,15 +457,7 @@ function Body(){
      
     </div>
 
-    <div className="col-md-4 ftco-animate text-center">
-          <figure><img src="images/fund.JPG" alt="Sunil for Troy city Council Fund raiser" className="img-fluid"/></figure>
-          <div className="p-3">
    
-            <p className="mb-4"> <h3 className="h4">Fundraising Event
-Joe Kool's Bar & Grill · Troy, MI</h3></p>
-           
-          </div>
-        </div>
   </div>
 
 
@@ -585,7 +579,7 @@ function Blog({ match }) {
      
      
       <div className="row">
-    <div className="col-lg-6">
+  {/*   <div className="col-lg-6">
       <div className="col-md-12" ftco-animate text-center>
           <figure><img src="images/fund.JPG" alt="Sunil for Troy city Council Fund raiser" className="img-fluid"/></figure>
           <div className="p-3">
@@ -595,20 +589,33 @@ function Blog({ match }) {
           </div>
 
         </div>
-        </div>
+        </div> */}
         <div className="col-lg-6">
       <div className="col-md-12 ftco-animate text-center">
-     {/*  <h3 className="h4">Find us on facebook <span class="icon-facebook text-primary"></span> </h3> */}
+      <h3 className="h4">Find us on facebook <span class="icon-facebook text-primary"></span> </h3>
      
-      <div className="fb-page" data-href="https://www.facebook.com/Sunil4Troy/" data-tabs="timeline" data-width="" data-height="400" data-small-header="false" data-adapt-container-width="true" 
+      <div className="fb-page" data-href="https://www.facebook.com/Sunil4Troy/" data-tabs="timeline" data-width="" data-height="500" data-small-header="false" data-adapt-container-width="true" 
       data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sunil4Troy/" 
       className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sunil4Troy/">Sunil 4 Troy City Council</a></blockquote></div>
 </div>
 </div>
+
+<div className="col-lg-6 mb-5 ftco-animate">
+          <figure><img src="images/kids2kids.jpeg" alt="snack with Sunil" className="img-fluid"/></figure>
+          <div className="p-3">
+            <h3 className="h4">Kids2Kids</h3>
+            <p className="mb-4">Kids2Kids is a non profit organization that was started by Shruthi Sunilkumar, an 11th grader at Troy High School. 
+?We raise funds to be able to provide basic amenities to kids. This event went very successful. We had around 200 people join us at the fundraiser. We were able to donate 62 bikes, $700, and 20 helmets. Thank you to everyone who came to the Kite Festival making it a grand success! </p>
+           
+          </div>
+        </div>
 </div>
+<div className="row">
+  <br></br>
+  </div>
         <div className="row">
 
-        <div className="col-lg-4 mb-5 ftco-animate">
+        <div className="col-lg-6 mb-5 ftco-animate">
           <figure><img src="images/img_2.jpeg" alt="Troy Welcomes Daisy Knight Dog Park" className="img-fluid"/></figure>
           <div className="p-3">
             <h3 className="h4">Troy Welcomes Daisy Knight Dog Park</h3>
@@ -618,18 +625,10 @@ function Blog({ match }) {
            
           </div>
         </div>
-      <div className="col-lg-4 mb-5 ftco-animate">
-          <figure><img src="images/kids2kids.jpeg" alt="snack with Sunil" className="img-fluid"/></figure>
-          <div className="p-3">
-            <h3 className="h4">Kids2Kids</h3>
-            <p className="mb-4">Kids2Kids is a non profit organization that was started by Shruthi Sunilkumar, an 11th grader at Troy High School. 
-?We raise funds to be able to provide basic amenities to kids. This event went very successful. We had around 200 people join us at the fundraiser. We were able to donate 62 bikes, $700, and 20 helmets. Thank you to everyone who came to the Kite Festival making it a grand success! </p>
-           
-          </div>
-        </div>
+      
 
       
-        <div className="col-lg-4 mb-5 ftco-animate">
+        <div className="col-lg-6 mb-5 ftco-animate">
           <figure><img src="images/sunil.jpeg" alt="snack with Sunil" className="img-fluid"/></figure>
           <div className="p-3">
             <h3 className="h4">snack with Sunil .. get to know your candidate</h3>
