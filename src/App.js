@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route,Switch, Link } from "react-router-dom";
+import Endors from './Endors';
+
 
 import logo from './logo.svg';
 
@@ -26,7 +28,7 @@ function App() {
              
               <Route path='/about' component={About} />
               <Route path='/keymessages' component={KeyMessages} />
-              <Route path='/endorsements' component={END2} />
+              <Route path='/endorsements' component={Endors} />
               <Route path='/blog' component={Blog} />
               <Route path='/donate' component={Donate} />
           </Switch>
@@ -169,7 +171,48 @@ function END2(){
             data-toggle="modal" data-target="#modal1"/></a>
     
       </div>
+
+      <div className="col-lg-4 col-md-12 mb-4">
+    
+    <h5 className="mt-0">Wade Fleming</h5>
+      <div className="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div className="modal-dialog modal-lg" role="document">
+  
+       
+          <div className="modal-content">
+  
+     
+            <div className="modal-body mb-0 p-0">
+  
+              <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/VtT_Aqu5A-E"
+                  allowfullscreen></iframe>
+              </div>
+             
+            </div>
+  
+      
+            <div className="modal-footer justify-content-center">
+              <span className="mr-4">Sunil Sivaraman for Troy city council</span>
+            
+  
+              <button type="button" className="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+  
+            </div>
+  
+          </div>
    
+  
+        </div>
+      </div>
+
+  
+      <a><img className="img-fluid z-depth-1" src="https://img.youtube.com/vi/W14ZoXfutow/hqdefault.jpg" alt="video"
+          data-toggle="modal" data-target="#modal1"/></a>
+  
+    </div>
+ 
+ 
     
  
       <div className="col-lg-4 col-md-6 mb-4">
@@ -212,6 +255,7 @@ function END2(){
     
       </div>
 
+    
     
  
       <div className="col-lg-4 col-md-6 mb-4">
@@ -685,6 +729,19 @@ function Endorsements({ match }) {
                                      </div>
                     </div>
                   </div>
+
+                  <div className="item ftco-animate">
+                <div className="media d-block text-left ftco-media p-md-2 p-1">
+                 
+                  <div className="media-body">
+                    <h5 className="mt-0"> Former County Commissioner and Troy City Council member Wade Fleming</h5>
+
+                    <div className="embed-responsive embed-responsive-4by3">
+  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/vi/W14ZoXfutow?rel=0" allowFullScreen></iframe>
+</div>
+                         </div>
+                </div>
+              </div>
 
               <div className="item ftco-animate">
                 <div className="media d-block text-left ftco-media p-md-2 p-1">
