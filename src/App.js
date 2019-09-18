@@ -256,7 +256,7 @@ function END2(){
       </div>
 
     
-    
+
  
       <div className="col-lg-4 col-md-6 mb-4">
       <h5 className="mt-0">Principal Gary Wood</h5>
@@ -445,6 +445,10 @@ function About() {
 
 function Body(){
 
+
+  const styles = {
+    color: 'red'
+  }
   return (
    <div>
     <section className="ftco-cover" id="section-home">
@@ -486,7 +490,7 @@ function Body(){
     </section>
 
 
-<section className="ftco-section ftco-slant ftco-slant-light" id="section-about">
+<section className="ftco-section ftco-slant ftco-slant-light pt-0" style={{styles}} id="section-about">
 <div className="container">
 
   <div className="row mb-5">
