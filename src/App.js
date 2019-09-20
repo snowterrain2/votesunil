@@ -537,7 +537,7 @@ function KeyMessages({ match }) {
           <div className="col-md-12 text-center mb-5 ftco-animate">
               <h2 className="font-weight-bold">I Pledge to you..</h2>
               <div className="row justify-content-center">
-                <div className="col-md-7">
+                <div className="col-md-7 pt-10">
                   <p className="lead">
 
                      
