@@ -648,20 +648,28 @@ function Blog({ match }) {
 </div>
 </div> */}
 
+<div className="col-lg-6 col-md-12 mb-4 ftco-animate">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fvideos%2F611253739408333%2F&show_text=true&appId=2086272388065348" width="500" height="629" 
+scrolling="no" 
+frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+</div>
 
-<div className="col-lg-6 mb-5 ftco-animate">
+<div className="col-lg-6 col-md-12 mb-4 ftco-animate">
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D709007759542919%26id%3D100013011045707&width=500&show_text=true&appId=2086272388065348&height=683" width="500" height="683" 
 scrolling="no" 
 frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> 
 </div>
-<div className="col-lg-3 mb-5 ftco-animate">
+
+
+
+<div className="col-lg-6 col-md-12 mb-4 ftco-animate">
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D722145524895809%26id%3D100013011045707&width=500&show_text=true&appId=2086272388065348&height=394" width="500" height="394" 
  
 scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> 
 </div>
 
-{/* <div className="col-lg-3 mb-5 ftco-animate">
+ <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
           <figure><img src="images/kids2kids.jpeg" alt="snack with Sunil" className="img-fluid"/></figure>
           <div className="p-3">
             <h3 className="h4">Kids2Kids</h3>
@@ -669,15 +677,15 @@ scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
 ?We raise funds to be able to provide basic amenities to kids. This event went very successful. We had around 200 people join us at the fundraiser. We were able to donate 62 bikes, $700, and 20 helmets. Thank you to everyone who came to the Kite Festival making it a grand success! </p>
            
           </div>
-        </div> */}
+        </div> 
 
-</div>
-<div className="row">
+
+{/* <div className="row">
   <br></br>
-  </div>
-        <div className="row">
+  </div> */}
+        {/* <div className="row"> */}
 
-        <div className="col-lg-4 mb-5 ftco-animate">
+        <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
           <figure><img src="images/img_2.jpeg" alt="Troy Welcomes Daisy Knight Dog Park" className="img-fluid"/></figure>
           <div className="p-3">
             <h3 className="h4">Troy Welcomes Daisy Knight Dog Park</h3>
@@ -690,7 +698,7 @@ scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
       
 
       
-        <div className="col-lg-4 mb-5 ftco-animate">
+        <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
           <figure><img src="images/sunil.jpeg" alt="snack with Sunil" className="img-fluid"/></figure>
           <div className="p-3">
             <h3 className="h4">snack with Sunil .. get to know your candidate</h3>
@@ -699,16 +707,16 @@ scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
           </div>
         </div>
 
-        <div className="col-lg-4 mb-5 ftco-animate">
+        <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
         <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D727124974397864%26id%3D100013011045707&width=500&show_text=true&appId=2086272388065348&height=585" width="500" height="585" 
          scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> 
         </div>
      
         
+{/* 
+      </div> */}
 
-      </div>
-
-    
+</div>
     </div>
    
       

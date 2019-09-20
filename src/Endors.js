@@ -1,5 +1,7 @@
 import React from "react";
 import * as ConstantsY from './yjson';
+import axios from 'axios';
+import App from './App';
 
 
 
@@ -7,10 +9,12 @@ class Endors extends React.Component  {
 
   constructor() {
     super();
-    this.state={};
+    this.state={facebook: []};
+    
    
   }
 
+ 
 
   componentDidMount () {
     const script = document.createElement("script");
@@ -19,7 +23,20 @@ class Endors extends React.Component  {
     script.async = true;
 
     document.body.appendChild(script);
+  
+
+    var _this = this;
+    this.serverRequest = 
+      axios
+        .get("https://votesunil.s3.us-east-2.amazonaws.com/facebookposts.json")
+        .then(function(result) {    
+          _this.setState({
+            facebook: result.data.facebook
+          });
+        })
+   
 }
+
 
   
     render() {
@@ -38,12 +55,23 @@ class Endors extends React.Component  {
         <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-pricing">
     <div className="container">
 
+
+
     <div className="row">
           <div className="col-md-12 text-center ftco-animate">
             <h2 className="text-uppercase ftco-uppercase">Endorsements</h2>
             <div className="row justify-content-center mb-5">
               <div className="col-md-7">
                 <p className="lead">Sunil Sivaraman For Troy City Council</p>
+                {this.state.facebook.map(function(job) {
+          return (
+            <div key={job.id} className="job">
+             
+                {job.id} testadsadadadsad <p className="lead">Sunil Sivaraman For Troy City Council</p>
+               
+            </div>
+          );
+        })}
               </div>
             </div>
           </div>
@@ -126,3 +154,4 @@ class MyAppChild extends React.Component {
 
 
   export default Endors;
+
