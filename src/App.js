@@ -31,6 +31,8 @@ function App() {
               <Route path='/endorsements' component={Endors} />
               <Route path='/blog' component={Blog} />
               <Route path='/donate' component={Donate} />
+              <Route path='/media' component={Media} />
+              <Route path='/contact' component={Contact} />
           </Switch>
       <div>
      {/*  <header className="App-header">
@@ -53,6 +55,38 @@ function App() {
     
 
     
+  );
+}
+
+
+function Media() {
+  return (
+    <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-media">
+    <div className="container">
+
+    <div className="row">
+    <div className="col-md-12 text-center ftco-animate">
+            <h2 className="text-uppercase ftco-uppercase"></h2>
+            </div>
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8" allowfullscreen></iframe>
+  </div>
+  </div>
+  </div>
+  </section>
+        
+ 
+
+  );
+}
+
+function Contact() {
+  return (
+
+        <Header/>
+        
+       
+
   );
 }
 
@@ -647,7 +681,11 @@ function Blog({ match }) {
       className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sunil4Troy/">Sunil 4 Troy City Council</a></blockquote></div>
 </div>
 </div> */}
-
+<div className="col-lg-6 col-md-12 mb-4 ftco-animate">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100013011045707%2Fvideos%2F729022047541490%2F&width=500&show_text=true&appId=2086272388065348&height=1081" 
+width="500" height="1081" scrolling="no" frameborder="0" 
+allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+</div>
 <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fvideos%2F611253739408333%2F&show_text=true&appId=2086272388065348" width="500" height="629" 
 scrolling="no" 
