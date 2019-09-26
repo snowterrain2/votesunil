@@ -64,12 +64,19 @@ function Media() {
     <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-media">
     <div className="container">
 
+
+
     <div className="row">
-    <div className="col-md-12 text-center ftco-animate">
+    <div className="col-md-6 text-center ftco-animate">
             <h2 className="text-uppercase ftco-uppercase"></h2>
             </div>
     <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8" allowfullscreen></iframe>
+  </div>
+  <div className="col-md-12 text-center ftco-animate">
+ 
+  <iframe name="Framename" src="http://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes" > </iframe>
+
   </div>
   </div>
   </div>
@@ -563,7 +570,7 @@ function Body(){
 
 function KeyMessages({ match }) {
   return (
-<section className="ftco-section bg-light  ftco-slant ftco-slant-white" id="section-features">
+<section className="ftco-section bg-light  ftco-slant ftco-slant-white pt-1" id="section-features">
       <div className="container">
         
         <div className="row">
@@ -647,7 +654,7 @@ function KeyMessages({ match }) {
 function Blog({ match }) {
   return (
 
-    <section className="ftco-section ftco-slant" id="section-services">
+    <section className="ftco-section ftco-slant pt-1" id="section-services">
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center ftco-animate">
@@ -681,6 +688,11 @@ function Blog({ match }) {
       className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sunil4Troy/">Sunil 4 Troy City Council</a></blockquote></div>
 </div>
 </div> */}
+
+<div className="col-lg-6 col-md-12 mb-4 ftco-animate">
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fposts%2F2034091706692591&width=500&show_text=true&appId=2086272388065348&height=702" width="500" height="702" 
+scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</div>
 <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100013011045707%2Fvideos%2F729022047541490%2F&width=500&show_text=true&appId=2086272388065348&height=1081" 
 width="500" height="1081" scrolling="no" frameborder="0" 
