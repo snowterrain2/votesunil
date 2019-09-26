@@ -74,6 +74,7 @@ function Media() {
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8" allowfullscreen></iframe>
   </div>
   <div className="col-md-12 text-center ftco-animate">
+    
  
   <iframe name="Framename" src="http://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes" > </iframe>
 
