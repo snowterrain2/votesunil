@@ -689,6 +689,11 @@ function Blog({ match }) {
       className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sunil4Troy/">Sunil 4 Troy City Council</a></blockquote></div>
 </div>
 </div> */}
+<div className="col-lg-6 col-md-12 mb-4 ftco-animate">
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fposts%2F2057319141036514&width=500&show_text=true&appId=2086272388065348&height=514" width="500" 
+height="514" 
+scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</div>
 
 <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fposts%2F2047071925394569%3A0&width=500&show_text=true&appId=2086272388065348&height=590" width="500" height="590" 
