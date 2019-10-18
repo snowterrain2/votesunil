@@ -61,7 +61,7 @@ function App() {
 
 function Media() {
   return (
- <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-media">
+<section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-media">
    <div class="container"><div class="row">
 		<div class="col-md-6 text-center ftco-animate fadeInUp ftco-animated">
 		<h2 class="ftco-uppercase">Minesh Baxi with Sunil</h2>
@@ -89,26 +89,9 @@ function Media() {
 </div>
 			
    	
-<div class="row">
-<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
-				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
- </iframe>
-</div>
-</div>
 
-			
-   	
-<div class="row">
-<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
-				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
- </iframe>
-</div>
-</div>
 
-<div class="row">
-<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
-				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
- </iframe></div></div>
+
 </div>
   </section>
  
