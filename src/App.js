@@ -62,32 +62,58 @@ function App() {
 function Media() {
   return (
  <section className="ftco-section bg-light ftco-slant ftco-slant-white" id="section-media">
-    <div className="container">
+   <div class="container"><div class="row">
+		<div class="col-md-6 text-center ftco-animate fadeInUp ftco-animated">
+		<h2 class="ftco-uppercase">Minesh Baxi with Sunil</h2>
+		</div>
 
+		<div class="col-md-6 text-center ftco-animate embed-responsive embed-responsive-16by9 fadeInUp ftco-animated">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8"></iframe>
+		</div>
 
+		<div class="col-md-6 text-center ftco-animate embed-responsive embed-responsive-16by9 fadeInUp ftco-animated">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mmKmzGMJRlI">
+			</iframe>
+		</div>
+    			<div class="col-md-6 text-center ftco-animate fadeInUp ftco-animated">
+			<h2 class="ftco-uppercase">2019 Candidate Interview: Sunil Sivaraman for Troy City Council
 
-    <div className="row">
-    		
-
-    		<div class="col-md-6 text-center ftco-animate embed-responsive embed-responsive-16by9">
-    		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8" allowfullscreen></iframe>
-   		 </div>
-		<div class="col-md-6 text-center ftco-animate embed-responsive embed-responsive-16by9">
-    		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mmKmzGMJRlI" allowfullscreen></iframe>
-		 </div>
+				(Crystal A. Proxmire, Oct. 7, 2019)</h2></div>
+			</div>
+   	
+<div class="row">
+<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
+				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
+ </iframe>
+</div>
+</div>
+			
+   	
+<div class="row">
+<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
+				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
+ </iframe>
+</div>
 </div>
 
-    <div className="row">
-  		<div className="col-md-12 text-center ftco-animate">
-  		<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes" > </iframe>
-  		</div>
+			
+   	
+<div class="row">
+<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
+				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
+ </iframe>
+</div>
 </div>
 
-
-    </div>
-
-  </div>
+<div class="row">
+<div class="col-md-12 text-center ftco-animate fadeInUp ftco-animated">
+				<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes">
+ </iframe></div></div>
+</div>
   </section>
+ 
+ 
+
  
         
  
