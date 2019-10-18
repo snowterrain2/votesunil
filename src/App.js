@@ -67,19 +67,24 @@ function Media() {
 
 
     <div className="row">
-    <div className="col-md-6 text-center ftco-animate">
-            <h2 className="text-uppercase ftco-uppercase"></h2>
-            </div>
-    <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8" allowfullscreen></iframe>
-  </div>
-  <div className="col-md-12 text-center ftco-animate">
+    		<div className="col-md-6 text-center ftco-animate">
+            	<h2 className="text-uppercase ftco-uppercase"></h2>
+     		</div>
 
- 
-  <iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes" > </iframe>
+    		<div class="col-md-6 text-center ftco-animate embed-responsive embed-responsive-16by9">
+    		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41u1z5PRdF8" allowfullscreen></iframe>
+   		 </div>
+		<div class="col-md-6 text-center ftco-animate embed-responsive embed-responsive-16by9">
+    		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mmKmzGMJRlI" allowfullscreen></iframe>
+		 </div>
 
-  </div>
-  </div>
+  		<div className="col-md-12 text-center ftco-animate">
+  		<iframe name="Framename" src="https://onyourballot.vote411.org/race-detail.do?id=19415712" width="500" height="700" frameborder="0" scrolling="yes" > </iframe>
+  		</div>
+
+
+    </div>
+
   </div>
   </section>
         
