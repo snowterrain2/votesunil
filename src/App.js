@@ -592,6 +592,18 @@ function KeyMessages({ match }) {
         
         <div className="row">
          
+
+ <div className="col-md-12 text-center mb-5 ftco-animate">
+ <h2 className="font-weight-bold">Open letter to Troy Residents</h2>
+
+             <iframe id="testiframe" 
+name="testiframe" title="Advertisement" src="https://votesunil.s3.us-east-2.amazonaws.com/Openletter.pdf" width="100%" height="800"></iframe>
+
+             
+
+
+    </div>
+
           <div className="col-md-12 text-center mb-5 ftco-animate">
               <h2 className="font-weight-bold">I Pledge to you..</h2>
               <div className="row justify-content-center">
@@ -613,6 +625,8 @@ function KeyMessages({ match }) {
                 </div>
               </div>
             </div>
+           
+
           <div className="col-lg-3 col-md-6">
             <div className="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
               <div className="ftco-icon mb-3"><span className="oi oi-dollar display-4 text-success"></span></div>
