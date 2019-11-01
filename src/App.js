@@ -598,7 +598,7 @@ function KeyMessages({ match }) {
  <h2 className="font-weight-bold">Open letter to Troy Residents</h2>
 
              <iframe id="testiframe" 
-name="testiframe" title="Advertisement" src="images/OpenLetter.pdf" width="100%" height="800"></iframe>
+name="testiframe" title="Advertisement" src="https://votesunil.s3.us-east-2.amazonaws.com/Openletter.pdf" width="100%" height="800"></iframe>
 
              
 
@@ -722,7 +722,7 @@ function Blog({ match }) {
 </div> */}
 	  
     <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
-          <figure><img src="images/sunil4troy.jpg" alt="Troy has Sunil's back" className="img-fluid"/></figure>
+          <figure><img src="images/sunil4troy.jpeg" alt="Troy has Sunil's back" className="img-fluid"/></figure>
           <div className="p-3">
        
             <p className="mb-4"></p>
