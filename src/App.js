@@ -527,7 +527,8 @@ function Body(){
       <div className="w-100 text-white">
         <h1 className="display-3 text-white">Sunil Sivaraman</h1>
         <h3 className="text-white"><p className="font-weight-bold text-white">For Troy City Council</p></h3>
-        
+        <h3 className="text-white"><p className="font-weight-bold text-white">Against Overbuilding in Troy</p></h3>
+        <h3 className="text-white"><p className="font-weight-bold text-white">Pledge to provide a Transparent & Efficient Government</p></h3>
        
       </div>
     </div>
@@ -597,7 +598,7 @@ function KeyMessages({ match }) {
  <h2 className="font-weight-bold">Open letter to Troy Residents</h2>
 
              <iframe id="testiframe" 
-name="testiframe" title="Advertisement" src="https://votesunil.s3.us-east-2.amazonaws.com/Openletter.pdf" width="100%" height="800"></iframe>
+name="testiframe" title="Advertisement" src="images/OpenLetter.pdf" width="100%" height="800"></iframe>
 
              
 
@@ -720,6 +721,16 @@ function Blog({ match }) {
 </div>
 </div> */}
 	  
+    <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
+          <figure><img src="images/sunil4troy.jpg" alt="Troy has Sunil's back" className="img-fluid"/></figure>
+          <div className="p-3">
+       
+            <p className="mb-4"></p>
+          
+          </div>
+        </div>
+
+
 	   <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fposts%2F2084492514985843&width=500&show_text=true&appId=2086272388065348&height=525" width="500" height="525" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
