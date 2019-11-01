@@ -598,7 +598,7 @@ function KeyMessages({ match }) {
  <h2 className="font-weight-bold">Open letter to Troy Residents</h2>
 
              <iframe id="testiframe" 
-name="testiframe" title="Advertisement" src="https://votesunil.s3.us-east-2.amazonaws.com/Openletter.pdf" width="100%" height="800"></iframe>
+name="testiframe" title="Advertisement" src="https://votesunil.s3.us-east-2.amazonaws.com/OpenLetter2.pdf" width="100%" height="800"></iframe>
 
              
 
