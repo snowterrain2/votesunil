@@ -721,6 +721,14 @@ function Blog({ match }) {
 </div>
 </div> */}
 	  
+	   <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSunil4Troy%2Fvideos%2F521432278587329%2F&width=500&show_text=true&appId=2086272388065348&height=453"
+	  width="500" height="453" 
+	  scrolling="no" frameborder="0" allowTransparency="true" 
+	  allow="encrypted-media" allowFullScreen="true"></iframe>  
+	  
+        </div>
+	
     <div className="col-lg-6 col-md-12 mb-4 ftco-animate">
           <figure><img src="images/sunil4troy.jpeg" alt="Troy has Sunil's back" className="img-fluid"/></figure>
           <div className="p-3">
