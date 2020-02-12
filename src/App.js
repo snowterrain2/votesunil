@@ -230,7 +230,7 @@ function END2(){
     
       </div>
 
-      <div className="col-lg-4 col-md-12 mb-4">
+    
     
     <h5 className="mt-0">Wade Fleming</h5>
       <div className="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -401,7 +401,7 @@ function END2(){
     
       </div>
     
-      <div className="col-lg-4 col-md-12 mb-4">
+
  
  <h5 className="mt-0">Former State Rep &amp; House leader Rocky Raczkowski</h5>
    <div className="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
