@@ -273,7 +273,7 @@ function END2(){
  
     
  
-      <div className="col-lg-4 col-md-6 mb-4">
+
       <h5 className="mt-0">Congressman Dave Trott</h5>
      
         <div className="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -359,7 +359,7 @@ function END2(){
     
     </div>
     <div className="row">
-    <div className="col-lg-4 col-md-12 mb-4">
+
  
       <h5 className="mt-0">Precinct Delegate Ray Watts</h5>
         <div className="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -403,8 +403,7 @@ function END2(){
     
 
  
- <h5 className="mt-0">Former State Rep &amp; House leader Rocky Raczkowski</h5>
-   <div className="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
      <div className="modal-dialog modal-lg" role="document">
 
     
@@ -918,7 +917,7 @@ function Endorsements({ match }) {
                     </div>
                   </div>
 
-                  <div className="item ftco-animate">
+           
                 <div className="media d-block text-left ftco-media p-md-2 p-1">
                  
                   <div className="media-body">
@@ -931,7 +930,7 @@ function Endorsements({ match }) {
                 </div>
               </div>
 
-              <div className="item ftco-animate">
+      
                 <div className="media d-block text-left ftco-media p-md-2 p-1">
                  
                   <div className="media-body">
@@ -959,21 +958,9 @@ function Endorsements({ match }) {
                 </div>
               </div>
 
-              <div className="item ftco-animate">
-                <div className="media d-block text-left ftco-media p-md-2 p-1">
-                  <div className="ftco-icon mb-3"></div>
-                  <div className="media-body">
-                    <h5 className="mt-0">Precinct Delegate Ray Watts</h5>
-                    
-                    <div className="embed-responsive embed-responsive-4by3">
-  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/GEGjzZ86Dow?rel=0" allowFullScreen></iframe>
-</div> 
-                 
-                  </div>
-                </div>
-              </div>
 
-              <div className="item ftco-animate">
+
+  
                 <div className="media d-block text-left ftco-media p-md-2 p-1">
                   <div className="ftco-icon mb-3"></div>
                   <div className="media-body">
